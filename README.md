@@ -1,9 +1,12 @@
-https://www.youtube.com/watch?v=QUT1VHiLmmI
+# Learning NumPY
+Based on youtube tutorial here : https://www.youtube.com/watch?v=QUT1VHiLmmI
+
+## General Discussion/Overview
 
 lists vs NumPy
 
-numpy uses fixed types
-lists use objects
+* numpy uses fixed types
+* lists use objects
 
 numpy, for example, a value of 5 will be Int32; 4 bytes
 
@@ -13,11 +16,13 @@ Less memory, means faster.
 
 iterating doesn't require type checking in numpy; so faster again
 
-numpy use contigous memory.
+numpy uses contigous memory.
 
 SIMD single instruction multiple data - ML instruction which really speads up
 
-Example
+Example:
+
+```
 
 a = [1,3,5]
 b = [1,2,3]
@@ -29,6 +34,6 @@ vs
 a = np.array([1,3,5])
 b = np.array([1,2,3])
 a * b = np.array([1,6,15])
-
+```
 
 
